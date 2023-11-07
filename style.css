@@ -1,0 +1,227 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0; /* Adjust as needed */
+}
+
+.logo {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.logo>img {
+    
+    width: 80px;
+    filter: invert(100%);
+    padding-left: 20px;
+}
+
+.navbar {
+    /* border: 2px solid yellow; */
+    padding: 22px 32px;
+    width: 49%;
+    margin: 10px auto;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-contact {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-ul {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    font-size: 23px;
+}
+
+.navbar-ul>li {
+    list-style-type: none;
+    margin: 0px 16px;
+}
+
+.navbar-ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-ul>li>a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.navbar-contact-btn {
+    margin: 0px 9px;
+    color: white;
+    background: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.navbar-contact-btn:hover {
+    background-color: rgb(94, 90, 90);
+}
+
+.home-section-btn:hover {
+    background-color: rgb(94, 90, 90);
+}
+
+.container {
+    padding: 60px 15px 60px 16px;
+    margin: 10px; /* Adjust as needed */
+    border-radius: 23px;
+    width: 25%;
+    padding-left: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.container h1 {
+    padding: 15px;
+    font-size: 28px;
+}
+
+
+.form-group input {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    width: 310px;
+    padding: 6px;
+    margin: 6px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.home-section-btn {
+    margin: 0px 9px;
+    color: white;
+    background: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 19px;
+    cursor: pointer;
+    width: 300px;
+}
+
+.home-section {
+    background: url(./image/backgr-img.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+.about-section {
+    /* background: url(./image/backgr-img2.jpg); */
+    background-color: #171717;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+}
+
+.about-us {
+    font-size: 25px;
+    margin: 0px; /* Adjust as needed */
+    padding: 10px;
+}
+
+.about-section h1 {
+
+    /* border: 2px solid red; */
+    font-size: 35px;
+    margin-top: 60px;
+    padding: 35px 50px;
+   /* display: inline-block; */
+}
+
+.contact-section h2 {
+    /* border: 2px solid red; */
+    font-size: 35px;
+    margin-top: 60px;
+    padding: 35px 50px;
+   /* display: inline-block; */
+}
+
+.contact-section {
+    font-size: 25px;
+    margin: 0px; /* Adjust as needed */
+    padding: 10px;
+    background-color: #171717;
+    text-align: center;
+}
+
+
+
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style form fields and labels */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the submit button */
+.form-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Add some hover effects to the submit button */
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+h1, h2, h3, p {
+    margin: 0;
+}

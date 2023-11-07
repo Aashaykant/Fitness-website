@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="style.css">
+    <title>Fitness Club</title>
+    
+</head>
+
+<body>
+    <section class="home-section" id="home">
+        <header class="header">
+            <div class="logo">
+                <!-- left box for logo -->
+
+                <img src="./image/logo.png">
+                <h3>Fitness Club</h3>
+            </div>
+            <div class="navbar">
+                <!-- mid box for navbar -->
+                <ul class="navbar-ul">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-contact">
+                <!-- right box for  -->
+                <button class="navbar-contact-btn">Call us Now</button>
+                <button class="navbar-contact-btn">Email Us</button>
+            </div>
+        </header>
+        <div class="container">
+            <h1>
+                Join the best gym of Bangalore now
+            </h1>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Enter your Name">
+                    <input type="text" placeholder="Enter your Age">
+                    <input type="text" placeholder="Enter your Gender">
+                    <input type="text" placeholder="Enter your Locality">
+                </div>
+            </form>
+            <button class="home-section-btn">Submit</button>
+        </div>
+    </section>
+
+
+    <section class="about-section" id="about-us">
+
+        <div class="about-us">
+            <h1>About Us</h1>
+            <p>
+                We're thrilled to introduce our state-of-the-art gym in the vibrant city of Bangalore! Our fitness
+                center offers a diverse range of cutting-edge equipment, expert trainers, and motivating group classes.
+                Whether you're a fitness enthusiast or just beginning your wellness journey, our gym provides the
+                perfect environment for achieving your health and fitness goals. Join us today and embark on your path
+                to a healthier, stronger you!
+            </p>
+
+        </div>
+
+    </section>
+    <section class="contact-section" id="contact-us">
+        <h2>
+            Contact Us
+        </h2>
+        <div class="form-container">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+    </section>
+</body>
+
+</html>
